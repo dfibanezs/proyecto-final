@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="Estilos/estilo.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu" class="icon-menu"></label>
+		</div>
+			<div class="logo">
+				<h1>Calculadora</h1>
+			</div>
+			<nav class="menu">
+				<a href="#inicio">Introduccion</a>
+				<a href="#Que son los tipos de raza">Tipos de calculos</a>
+				<a href="#Informacion extra">Materiales</a>
+				<a href="#Creditos">Creditos</a>
+			</nav>
+		</div>
+	</header>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+	<h5>Calculadora basica</h5><br>
+	<form>
+	<center><button type="radio" onclick="location.href='#Informacion extra'"><h4>Empezar</h4></button></center>
+	</form>
+	<div class="capa"></div>
+<br><br><br><br><br><br><br>
+<div id="cont">
+<section>
+<p>
+<a id="inicio"><h2><u><center>Primero</center></u></h2></a><br><br>
+<h2>- Introduccion</h2><br>
+Varias veces nesecitamos una herramienta que nos permita hacer calculos de forma rapida sin tener <br>
+que hacerlo mecanicamente, En el pasado, se utilizaban como apoyo al trabajo numérico ábacos, comptómetros, ábacos neperianos, tablas matemáticas, reglas de cálculo y máquinas de sumar. El término «calculador» 
+se usaba para aludir a la persona que ejercía este trabajo, ayudándose también de papel y lápiz. 
+Este proceso de cálculo semimanual era tedioso y proclive a errores. Actualmente, las calculadoras son electrónicas y son fabricadas por numerosas empresas en tamaños y formas variados. Se pueden encontrar desde modelos
+ muy baratos del tamaño de una tarjeta de crédito hasta otros más costosos con una impresora incorporada.
+En la mayoría de los países estudiantes usan calculadoras en sus tareas escolares. Hubo cierta resistencia inicial a la idea por el temor de que las habilidades aritméticas básicas se resentirían. 
+<center><br><br><img src="https://revistabyte.es/wp-content/uploads/2020/05/calculadora-casio.jpg" width="30%" height="4%"><br><br></center>
+Permanece cierto desacuerdo sobre la importancia de la habilidad para realizar cálculos a mano o mentalmente, con algunos planes de estudios restringiendo el uso de la calculadora hasta que se logra cierto nivel de destreza matemática, mientras que otros se centran más en enseñar técnicas de estimación y resolución de problemas.
+
+Hay otras preocupaciones, como que un alumno use la calculadora erróneamente pero crea que la respuesta es correcta porque fue el resultado dado por la calculadora. Los profesores intentan combatir esto animando a los estudiantes a realizar manualmente una estimación del resultado y asegurar que se acerca al resultado calculado. 
+También es posible que un niño teclee −1 × −1 y obtenga la respuesta correcta «1» 
+sin advertir el principio implicado (que multiplicar un número negativo por otro número negativo da como resultado un número positivo). 
+En este sentido, la calculadora pasa a ser una muleta más que una herramienta didáctica, pudiendo frenar a los estudiantes durante un examen si estos 
+se dedican a comprobar incluso los cálculos más triviales en la calculadora.</p>
+
+<a id="Que son los tipos de raza"><h2>.</h2></a><br><br>
+<h2>- Tipos de calculos</h2><br>
+Hay varios tipos de calculos los cuales se pueden hacer diferentes tipos de calculos en las calculadoras,<br>
+en este caso tendremos las operaciones mas basicas mas otros tipos de operaciones, estos son:<br><br>	
+<center>La Suma<br>
+<video src="Video/Suma.mp4" controls  width="40%" height="6%"><br></center><br>
+<center><a href="https://youtu.be/oexd_Dfic_Q" target="cuerpo.html">https://youtu.be/oexd<br>_Dfic_Q</a></center><br>
+<center>La Resta<br>
+<video src="Video/Resta.mp4" controls width="40%" height="6%"><br></center><br>
+<center><a href="https://www.youtube.com/watch?v=42vjqtleG9E" target="cuerpo.html">https://www.youtube.com/<br>watch?v=42vjqtleG9E</a></center><br>
+<center>La multiplicacion<br>
+<video src="Video/Multiplicacion.mp4" controls width="40%" height="6%"><br></center><br>
+<center><a href="https://www.youtube.com/watch?v=YFtEaVw5k1A" target="cuerpo.html">https://www.youtube.com/<br>watch?v=YFtEaVw5k1A</a></center><br>
+<center>La Division<br>
+<video src="Video/Division.mp4" controls width="40%" height="6%"><br></center><br>
+<center><a href="https://www.youtube.com/watch?v=iA0fP4tL67s&t=36s" target="cuerpo.html">https://www.youtube.com/<br>watch?v=iA0fP4tL67s&t=36s</a></center><br>
+<a id="Informacion extra"><h2>.</h2></a><br><br>
+<h2>- Operaciones</h2><br>
+Aqui las operaciones que se pueden realizar:<br><br><br>
+	<center>Suma 
+	<audio src="Audios/Suma.mp3" controls></audio><br><br>
+	<script>
+	function suma(){
+	var n1=document.getElementById('num1').value;
+	var n2=document.getElementById('num2').value;
+	var s=parseInt(n1)+parseInt(n2);
+	alert("La suma es "+s);
+	}
+	</script>
+	<form>
+	<input type="text" id="num1">
+	<img src="https://lh3.googleusercontent.com/proxy/5wp0nhrVj5U0RydYQo1Fa7ZpUQNzquW4UY0q5itMinIB2NgOb74VfSxQO2hUsYWfzoktP57htDwS04cgp4V04NRl06hr_MEY5StC_yPIhRU6vPt-tqDYZCoi9kBOSLAdgiqIipE" width="2%" height="2%">
+	<input type="text" id="num2">
+	<button onclick="suma()"><h4>Calcular</h4></button>
+	</form></center><br><br>
+	<center>Resta
+	<audio src="Audios/Restar.mp3" controls></audio><br><br>
+	<script>
+	function restar(){
+	var n3=document.getElementById('num3').value;
+	var n4=document.getElementById('num4').value;
+	var r=parseInt(n3)-parseInt(n4);
+	alert("La resta es "+r);
+	}
+	</script>
+	<form>
+	<input type="text" id="num3">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8DAQQAAACGhob8/Pze3t7u7e6KioogHyDT09Pw8PCdnZ2vr6/MzMyUk5SOjY48Oz1+fX5sa2wKCQtISEh1dXbS0tJAP0DDw8NTU1O8vLxpaGkcGx0+PT7f399ycXI1p1t0AAABwElEQVR4nO3byVbbQBRFUbkMbuSWgEMTO/z/X6YEmCZAYMIiutp77IHOkiyXVM9NAwAAAAAAAAAAAAAAAAAAAAAAQI9M5sv1dNwf0/VyPvl03clqfFH66GK8OvnM2VvPuk+P+qc77NnmozM5ue1n3VE9+tt/NZ4s+t3XqQWLd6/V023v+zqlbE/fDlxG9HVKWb4VuIkJ7BKnrwPPggKrcvZ34Diqryrjl4GLtMCauHgeuMq6RO+UsnoKbGd5gTVx3z4W7hIDa+LuGPgzM7Amzh8Kt7GFl/eBV6mBjzeb69jCUbm+W28H/lIcldKtwde5gTVxXQsvowvrvaZNDqyJbXMTXniTuOZ+rq6/f4UX/shd0Nwr22YfXrhvzr/7GL7YefPdR/DlBnAO07+Hs/h76WEAv4f5a5r8dWn+s0X+8+EAnvHz39Pkv2sLfl86Klfp77wPD2/157GFx32L/L2npo18wCizp/3DerPJS3yxBzyAffwBzGKkzdOU1/M0aTNRm9eBA5hra5rfh4jG92cTBzBfWk12/W78aEa404bPed9dq+Gz+g9Xa/T/LQAAAAAAAAAAAAAAAAAAAAAAAPgP/AGpPTySlPxEZgAAAABJRU5ErkJggg==" width="2%" height="2%">
+	<input type="text" id="num4">
+	<button onclick="restar()"><h4>Calcular</h4></button>
+	</form></center><br><br>
+	<center>Multiplicacion 
+	<audio src="Audios/Multiplicar.mp3" controls></audio><br><br>
+	<script>
+	function multiplicacion(){
+	var n5=document.getElementById('num5').value;
+	var n6=document.getElementById('num6').value;
+	var m=parseInt(n5)*parseInt(n6);
+	alert("La multiplicacion es "+m);
+	}
+	</script>
+	<form>
+	<input type="text" id="num5">
+	<img src="https://img.flaticon.com/icons/png/512/43/43165.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" width="2%" height="3%">
+	<input type="text" id="num6">
+	<button onclick="multiplicacion()"><h4>Calcular</h4></button>
+	</form></center><br><br>
+	<center>Division 
+	<audio src="Audios/Dividir.mp3" controls></audio><br><br>
+	<script>
+	function dividir(){
+	var n7=document.getElementById('num7').value;
+	var n8=document.getElementById('num8').value;
+	var d=parseInt(n7)/parseInt(n8);
+	alert("La division es "+d);
+		}
+	</script>
+	<form>
+	<input type="text" id="num7">
+	<img src="https://codigoascii.org/images/signo-division.png" width="2%" height="2%">
+	<input type="text" id="num8">
+	<button onclick="dividir()"><h4>Calcular</h4></button>
+	</form></center>
+	
+<a id="Creditos"><h2>.</h2></a><br>
+<h2><center>- Creditos<center></h2><br>
+<center>Este boton mostrará los creditos.</center><br>
+<form>
+<center><button onclick="mostrar()"><h4>Mostrar</h4></button></center><br><br>
+</form>
+<script>
+function mostrar(){
+alert("Nombre: Diego Fernando Ibañez Sinka        Correo:dibanezs@fcpn.edu.bo")
+}
+</script>
+</section>
+</div>
+<footer>
+<a id="Derechosreservados">Diego Fernando Ibañez Sinka</a><br>
+<font color="white" size="20">Inf-113 Laboratorio de computacion</font><br>
+<font color="white" size="20">2021 </font>
+
+</footer>
+<script>
+var n=prompt("Ingrese su nombre")
+alert("Bienvenido a mi pagina "+n)
+alert("¡Disfruta!")
+</script>
+</body>
+</html>

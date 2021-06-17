@@ -1,0 +1,173 @@
+*{
+		margin:0;
+		padding:0;
+		box-sizing:border-box;
+		font-family:Comic Sans MS;
+	}
+	body{
+		background:url(https://acf.geeknetic.es/imgri/imagenes/tutoriales/definiciones/2020/12/Calculadora-g841.jpg?f=webp);
+		background-size:100vw 100vh;
+		background-repeat:no-repeat;
+	}
+	h5{
+		font-size:50pt;
+		text-align:center;
+		color:white;
+	
+	}
+	.capa{
+		position:fixed;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.6);
+		z-index:-1;
+		top:0;left:0;
+	}
+	.header{
+		width:100%;
+		height:100px;
+		position:fixed;
+		top:0;left:0;
+		background-color:#1f1f1f;
+	}
+	.container{
+		width:90%;
+		max-width:1200px;
+		margin:auto;
+		
+	}
+	.container .btn-menu, .logo{
+		float:left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color:#f1f1f1;
+		font-size:2%;
+		cursor:pointer;
+	}
+	.logo h1{
+		color:#f5f5f5;
+		font-weight:400;
+		font-size:30px;
+		margin-left:10px;
+	}
+	.container .menu{
+		float:right;
+		line-height:100px;
+	}
+	.container .menu a{
+		display:inline-block;
+		padding:15px;
+		line-height:normal;
+		text-decoration:none;
+		color:#f1f1f1;
+		transition:all 0.3s ease;
+		border-bottom:2px solid transparent;
+		font-size:110%;
+		margin-right:5px;
+	}
+	.container .menu a:hover{
+		border-bottom:2px solid #ffffff;
+		padding-bottom:5px;
+		background-color:#1f1f1f;
+	}
+	#btn-menu{
+		display:none;
+	}
+	.container-menu{
+		position:absolute;
+		background:rgba(0,0,0,0.5);
+		width:100%;
+		height:100vh;
+		top:0;left:0;
+		transition:all 500ms ease;
+		opacity:0;
+		visibility:hidden;
+	}
+	
+	
+	section
+	{
+		background-color:#5e5e5e;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		font-size:25px;
+		width:100%;
+		height:5000px;
+		float:bottom;
+		color:#f5f5f5;
+		
+	}
+	table{
+		border-style:3;
+		border-color:black;
+		font-size:20px;
+		color:white;
+
+	}
+	#cont{
+		margin:3%;
+		padding:3%;
+	}
+	
+	h2{
+		text-align:left;
+		color:black;
+	}
+	h3{
+		font-size:40;
+		color:black;
+		text-align:left;
+	}
+	footer
+	{
+	background-color:#1f1f1f;
+	text-align:center;
+	font-size:60px;
+	float:inherit;
+	height:30%;
+	color:white;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+	align-self: flex-end;
+	}
+	button{
+	background-color:#1f1f1f;
+	border:0px;
+    width:40%;
+    height:40px;
+	}
+	h4{
+		font-size:200%;
+		color:white;
+	}
+
+@media only screen and(min-width:768px) and  (max-width:940px){
+section{
+	height:10000px;
+}
+footer{
+	float:inherit;
+}
+}
+@media only screen and(min-width:400px) and  (max-width:767px){
+section{
+	height:10000px;
+}
+footer{
+	float:inherit;
+}
+}
+@media (max-height:640px){
+	section{
+		height:6800px;
+	}
+	footer{
+		width:100%;
+		  width: 100%;
+  text-align: center;
+  padding: 1em;
+  align-self: flex-end;
+	}
+}
